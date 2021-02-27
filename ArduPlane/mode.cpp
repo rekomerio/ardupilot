@@ -82,7 +82,6 @@ bool Mode::enter()
         // update RC failsafe, as mode change may have necessitated changing the failsafe throttle
         plane.control_failsafe();
     }
-
     return enter_result;
 }
 
